@@ -10,6 +10,8 @@ body {
     background-color: #7b986b;
 }
 
+/* navigation */
+
 .navbar {
     width: 100%;
     height: 70px;
@@ -78,5 +80,28 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #d4633f;
+    transform: scale(1.04);
+    color: #215c59;
+    box-shadow: 0 9px 9px rgba(#215c59, .3);
+}
+
+/* content */
+
+section {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: 800;
+}
+
+section:nth-child(odd) {
+    background: #18a994;
+}
+
+section:nth-child(even) {
+    background: #1aa08c;
 }
