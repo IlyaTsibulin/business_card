@@ -135,3 +135,34 @@ div {
     text-align: center;
     justify-content: center;
 }
+
+.wrapper-2 {
+    display: grid;
+    grid-template-rows: 35% 60%;
+    grid-gap: 1em;
+}
+
+.wrapper-2>div {
+    padding: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #cdb46f; */
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.card {
+    background-color: #c1ac6b;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0 black, 0 0 10px 0 #c1ac6b;
+    overflow: hidden;
+}
+
+.wrapper-2>div>img {
+    height: 130px;
+    width: 130px;
+}
