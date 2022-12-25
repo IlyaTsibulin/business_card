@@ -268,6 +268,14 @@ div {
 
 /* aqua-yoga */
 
+.aqua-img {
+    background-image: url(/images/aqua_yoga.jpeg);
+    margin-bottom: 100px;
+    margin-right: 50px;
+    height: 95%;
+    background-size: cover;
+}
+
 .wrapper-3 {
     display: grid;
     grid-template-rows: 40% 60%;
@@ -447,6 +455,8 @@ footer a img:hover {
 /* mobile version */
 
 @media screen and (max-width: 980px) {
+
+    /*  */
     .contact-page {
         max-width: 800px;
     }
@@ -465,4 +475,99 @@ footer a img:hover {
     .textb {
         width: 100%;
     }
+
+    /*  */
+
+    /*  */
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        height: 500px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        grid-gap: 1em;
+        position: relative;
+    }
+
+    .wrapper>div {
+        padding: 1em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: #cdb46f; */
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .wrapper>div.about {
+        width: 400px;
+        height: 360px;
+        /* padding: 1em; */
+        /* background-color: #c1ac6b;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        opacity: 0.95;
+        transition: all .07s ease-in-out;
+        text-align: left;
+        font-size: 20px; */
+        position: relative;
+        top: 100px;
+    }
+
+    .wrapper>div.about:hover {
+        transform: scale(1);
+    }
+
+    /*  */
+
+    /*  */
+    .wrapper-2 {
+        display: inline-block;
+        /* grid-template-columns: repeat(1, 500px); */
+        /* grid-gap: 1em; */
+    }
+
+    section {
+        height: auto;
+    }
+
+    .wrapper-2>div {
+        margin: 20px;
+    }
+
+    /*  */
+
+    .wrapper-3 {
+        display: inline-block;
+    }
+
+    .aqua {
+        height: 350px;
+        width: 500px;
+    }
+
+    .aqua-img {
+        height: 300px;
+        width: 500px;
+        margin-left: 3.9%;
+    }
+
+
+
+    /* .wrapper-3>div.aqua {
+        margin: 20px;
+        padding: 1em;
+        background-color: #c1ac6b;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        opacity: 0.95;
+        transition: all .07s ease-in-out;
+        text-align: left;
+    } */
+
+    /*  */
 }
